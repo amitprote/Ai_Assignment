@@ -1,0 +1,72 @@
+[
+    {
+        "claim_id": "1",
+        "description": "My car was rear-ended at a traffic signal yesterday. The bumper and tail lights are damaged.",
+        "claim_type": "Motor",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "2",
+        "description": "A water pipe burst in my kitchen causing damage to cabinets and flooring.",
+        "claim_type": "Property",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "3",
+        "description": "A customer slipped on a wet floor in my store and suffered a minor injury.",
+        "claim_type": "Liability",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "4",
+        "description": "My parked vehicle was hit overnight and the driver left the scene.",
+        "claim_type": "Motor",
+        "tone": "Calm",
+        "legal_action": "Yes"
+    },
+    {
+        "claim_id": "5",
+        "description": "Strong winds damaged part of my roof during last week's storm.",
+        "claim_type": "Property",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "6",
+        "description": "The neighbor claims my dog damaged their garden fence and is demanding compensation.",
+        "claim_type": "Liability",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "7",
+        "description": "My car windshield cracked after a stone hit it on the highway.",
+        "claim_type": "Motor",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "8",
+        "description": "A fire started in the garage and damaged stored household items.",
+        "claim_type": "Property",
+        "tone": "Calm",
+        "legal_action": "No"
+    },
+    {
+        "claim_id": "9",
+        "description": "I have reported this issue multiple times and still haven't received help. If this isn't resolved soon I may contact my lawyer.",
+        "claim_type": "Liability",
+        "tone": "Frustrated",
+        "legal_action": "Yes"
+    },
+    {
+        "claim_id": "10",
+        "description": "After the incident at the parking area, both my vehicle and nearby property were damaged. I'm not sure who is responsible.",
+        "claim_type": "Liability",
+        "tone": "Calm",
+        "legal_action": "Yes"
+    }
+]
