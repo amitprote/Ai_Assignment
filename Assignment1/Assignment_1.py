@@ -48,9 +48,9 @@ Required JSON format:
 
     return json.loads(content)
 
-# --------------------------------------------------
+
 # Read claims from CSV
-# --------------------------------------------------
+
 claims = []
 
 with open("claims.csv", "r", encoding="utf-8") as file:
@@ -62,9 +62,9 @@ with open("claims.csv", "r", encoding="utf-8") as file:
             "description": row["description"]
         })
 
-# --------------------------------------------------
+
 # Process claims
-# --------------------------------------------------
+
 results = []
 
 for claim in claims:
@@ -78,9 +78,9 @@ for claim in claims:
         "legal_action": classification["legal_action"]
     })
 
-# --------------------------------------------------
+
 # Save output
-# --------------------------------------------------
+
 with open("classified_claims.json", "w", encoding="utf-8") as outfile:
     json.dump(results, outfile, indent=4)
 
